@@ -13,6 +13,14 @@
 		E2B7468E1DD9C9AC00AC86E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B7468C1DD9C9AC00AC86E2 /* Main.storyboard */; };
 		E2B746901DD9C9AC00AC86E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B7468F1DD9C9AC00AC86E2 /* Assets.xcassets */; };
 		E2B746931DD9C9AC00AC86E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B746911DD9C9AC00AC86E2 /* LaunchScreen.storyboard */; };
+		E2B7469D1DD9CBA500AC86E2 /* RefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B7469C1DD9CBA500AC86E2 /* RefreshControl.m */; };
+		E2C67E751DDF31C4002BE791 /* KGRefreshBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C67E721DDF31C4002BE791 /* KGRefreshBottomView.m */; };
+		E2C67E761DDF31C4002BE791 /* KGRefreshTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C67E741DDF31C4002BE791 /* KGRefreshTopView.m */; };
+		E2C67E791DE01EAD002BE791 /* RefreshNewsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C67E781DE01EAD002BE791 /* RefreshNewsView.m */; };
+		E2C67E7D1DE031B6002BE791 /* UIImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C67E7C1DE031B5002BE791 /* UIImageTools.m */; };
+		E2C67E821DE0A52F002BE791 /* pullRefreshB_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C67E7F1DE0A52F002BE791 /* pullRefreshB_1@2x.png */; };
+		E2C67E831DE0A52F002BE791 /* pullRefreshB_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C67E801DE0A52F002BE791 /* pullRefreshB_2@2x.png */; };
+		E2C67E841DE0A52F002BE791 /* pullRefreshB_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C67E811DE0A52F002BE791 /* pullRefreshB_3@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,20 @@
 		E2B7468F1DD9C9AC00AC86E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2B746921DD9C9AC00AC86E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2B746941DD9C9AC00AC86E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B7469B1DD9CBA500AC86E2 /* RefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RefreshControl.h; path = RefreshControl_News/RefreshControl/RefreshControl.h; sourceTree = "<group>"; };
+		E2B7469C1DD9CBA500AC86E2 /* RefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RefreshControl.m; path = RefreshControl_News/RefreshControl/RefreshControl.m; sourceTree = "<group>"; };
+		E2C67E711DDF31BB002BE791 /* KGRefreshBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGRefreshBottomView.h; path = RefreshControl_News/Views/KGRefreshBottomView.h; sourceTree = "<group>"; };
+		E2C67E721DDF31C4002BE791 /* KGRefreshBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGRefreshBottomView.m; path = RefreshControl_News/Views/KGRefreshBottomView.m; sourceTree = "<group>"; };
+		E2C67E731DDF31C4002BE791 /* KGRefreshTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGRefreshTopView.h; path = RefreshControl_News/Views/KGRefreshTopView.h; sourceTree = "<group>"; };
+		E2C67E741DDF31C4002BE791 /* KGRefreshTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGRefreshTopView.m; path = RefreshControl_News/Views/KGRefreshTopView.m; sourceTree = "<group>"; };
+		E2C67E771DE01EAD002BE791 /* RefreshNewsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RefreshNewsView.h; path = RefreshControl_News/Views/RefreshNewsView.h; sourceTree = "<group>"; };
+		E2C67E781DE01EAD002BE791 /* RefreshNewsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RefreshNewsView.m; path = RefreshControl_News/Views/RefreshNewsView.m; sourceTree = "<group>"; };
+		E2C67E7A1DE02134002BE791 /* RefreshViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RefreshViewDelegate.h; path = RefreshControl_News/RefreshControl/RefreshViewDelegate.h; sourceTree = "<group>"; };
+		E2C67E7B1DE031B5002BE791 /* UIImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageTools.h; path = RefreshControl_News/Views/UIImageTools.h; sourceTree = "<group>"; };
+		E2C67E7C1DE031B5002BE791 /* UIImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIImageTools.m; path = RefreshControl_News/Views/UIImageTools.m; sourceTree = "<group>"; };
+		E2C67E7F1DE0A52F002BE791 /* pullRefreshB_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pullRefreshB_1@2x.png"; sourceTree = "<group>"; };
+		E2C67E801DE0A52F002BE791 /* pullRefreshB_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pullRefreshB_2@2x.png"; sourceTree = "<group>"; };
+		E2C67E811DE0A52F002BE791 /* pullRefreshB_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pullRefreshB_3@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +88,9 @@
 				E2B7468F1DD9C9AC00AC86E2 /* Assets.xcassets */,
 				E2B746911DD9C9AC00AC86E2 /* LaunchScreen.storyboard */,
 				E2B746941DD9C9AC00AC86E2 /* Info.plist */,
+				E2B7469A1DD9CA6100AC86E2 /* RefreshControl */,
+				E2C67E701DDF30E9002BE791 /* Views */,
+				E2C67E7E1DE0A51E002BE791 /* Image */,
 				E2B746831DD9C9A700AC86E2 /* Supporting Files */,
 			);
 			path = RefreshControl_News;
@@ -77,6 +102,43 @@
 				E2B746841DD9C9A700AC86E2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2B7469A1DD9CA6100AC86E2 /* RefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				E2B7469B1DD9CBA500AC86E2 /* RefreshControl.h */,
+				E2B7469C1DD9CBA500AC86E2 /* RefreshControl.m */,
+				E2C67E7A1DE02134002BE791 /* RefreshViewDelegate.h */,
+			);
+			name = RefreshControl;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E2C67E701DDF30E9002BE791 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2C67E711DDF31BB002BE791 /* KGRefreshBottomView.h */,
+				E2C67E721DDF31C4002BE791 /* KGRefreshBottomView.m */,
+				E2C67E731DDF31C4002BE791 /* KGRefreshTopView.h */,
+				E2C67E741DDF31C4002BE791 /* KGRefreshTopView.m */,
+				E2C67E771DE01EAD002BE791 /* RefreshNewsView.h */,
+				E2C67E781DE01EAD002BE791 /* RefreshNewsView.m */,
+				E2C67E7B1DE031B5002BE791 /* UIImageTools.h */,
+				E2C67E7C1DE031B5002BE791 /* UIImageTools.m */,
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E2C67E7E1DE0A51E002BE791 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E2C67E7F1DE0A52F002BE791 /* pullRefreshB_1@2x.png */,
+				E2C67E801DE0A52F002BE791 /* pullRefreshB_2@2x.png */,
+				E2C67E811DE0A52F002BE791 /* pullRefreshB_3@2x.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C67E831DE0A52F002BE791 /* pullRefreshB_2@2x.png in Resources */,
+				E2C67E821DE0A52F002BE791 /* pullRefreshB_1@2x.png in Resources */,
 				E2B746931DD9C9AC00AC86E2 /* LaunchScreen.storyboard in Resources */,
 				E2B746901DD9C9AC00AC86E2 /* Assets.xcassets in Resources */,
+				E2C67E841DE0A52F002BE791 /* pullRefreshB_3@2x.png in Resources */,
 				E2B7468E1DD9C9AC00AC86E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,7 +216,12 @@
 			files = (
 				E2B7468B1DD9C9AC00AC86E2 /* ViewController.m in Sources */,
 				E2B746881DD9C9AC00AC86E2 /* AppDelegate.m in Sources */,
+				E2C67E761DDF31C4002BE791 /* KGRefreshTopView.m in Sources */,
+				E2C67E7D1DE031B6002BE791 /* UIImageTools.m in Sources */,
+				E2C67E791DE01EAD002BE791 /* RefreshNewsView.m in Sources */,
+				E2C67E751DDF31C4002BE791 /* KGRefreshBottomView.m in Sources */,
 				E2B746851DD9C9A700AC86E2 /* main.m in Sources */,
+				E2B7469D1DD9CBA500AC86E2 /* RefreshControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +368,7 @@
 				E2B746991DD9C9AC00AC86E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
